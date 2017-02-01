@@ -17,3 +17,4 @@ npm run build
 api on localhost:3000: 
 node --harmony server.js
 
+visit localhost:8080
