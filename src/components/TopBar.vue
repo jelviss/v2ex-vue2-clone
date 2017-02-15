@@ -8,13 +8,15 @@
         </div>
         <nav class="topnav">
           <ul>
-            <li><a href="#">首页</a></li>
+            <li><router-link to="/">首页</router-link></li>
+            <!--
             <li><a href="#">Username</a></li>
             <li><a href="#">工作空间</a></li>
             <li><a href="#">记事本</a></li>
             <li><a href="#">时间轴</a></li>
             <li><a href="#">设置</a></li>
-            <li><a href="#">登陆</a></li>
+            -->
+            <li><router-link to="/Login">登陆</router-link></li>
           </ul>
         </nav>
       </div>

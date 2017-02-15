@@ -2,7 +2,7 @@
   <div class="info2">
     <p>今日热议主题</p>
     <div class="side-article-item" v-for="hot in hots"> 
-      <img src="//cdn.v2ex.co/avatar/fa03/4c94/131504_normal.png?m=1464571410"> 
+      <img v-if="hot.member" v-bind:src="hot.member.avatar_mini"> 
       <p>{{hot.title}}</p></div>
   </div>
 </template>

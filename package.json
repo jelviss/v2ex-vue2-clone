@@ -15,7 +15,6 @@
     "koa-router": "^7.1.0",
     "koa-static": "^2.0.0",
     "node-gyp": "latest",
-    "node-less": "^4.4.0",
     "node-sass": "^4.5.0",
     "sass-loader": "^4.1.1",
     "vue": "^2.1.0",
